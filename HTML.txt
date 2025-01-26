@@ -1,1 +1,13 @@
-HTML stands for HyperText Markup Language
+conditional Statements
+They are used to take the decision based on the conditional
+if
+else-if-else(ladder)
+if-else
+nested-if
+switch
+-> Looping Statements
+It is used to execute or iterate set of instructions based on condition
+for
+while
+do-while
+for-each

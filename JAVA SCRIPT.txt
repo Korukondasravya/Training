@@ -1,0 +1,167 @@
+JAVA SCRIPT
+DEF: It is a object based and obj oriented programming language used to convert static page into dynamic page 
+DATA TYPES:
+1)Premittive DT
+*Number
+*string
+*Boolean
+*undefined
+*null
+*bigint
+2)Non premitive DT:
+*class
+*object
+*functions 
+*array
+*map
+*sets
+SCOPES:
+global
+local/script
+block 
+3-TYPES
+1)var
+2)let
+3)const
+Operaters:
+Its is a pre defined symbol used to perform specific operation
+Arithematic: +,-,*,/,%,++,--
+Assignment
+Logical
+Ternary
+Relational
+Functions
+These are first citizen in javascript
+In javascript functions are treated as object
+Types of Functions
+1)Function Declaration statement/Named function/Pure Function
+2)Function Expression
+3)Fuction Programming(Iear order function, callback Function)
+4)Arrow Function
+5)Nested function
+6)IIFE(Immediate Invoking Function Expression)
+
+1)It is a set of instruction or block of code used to perform specific task
+Syntax:
+function fun-name(parameters,....)
+{
+  set-of-instructions
+}
+full-name(arguments,....)
+
+Advs:
+Code reusability
+Return Key word-Will stop execution of function
+Hoisting-Calling before function declaration 
+In function Expression Hoisting is not possible(reference error)
+In function Declaration Hoisting is possible
+Function Ex:
+Assigning function as a value to 1 variable It is used to perform specific task
+
+Differences b/w Function Declaration and function Expression
+
+1)Hoisting: Expression not possible
+
+2)Syntax: Declaration has Function Name, Expression Has Anonymous function
+
+3)both are specific value
+
+Function Programming:
+Ier Order fun, call back fun
+
+It is used to perform generic task(Multi task)
+A function programming can be created using function declaration statement and function expression and arrow function
+
+Ier:
+A function which accepts another function as an argument is called ier order function 
+Call Back;
+A function which is passed as an argument to Ier order function is called call back function 
+
+IIFE: Immediate invoking function Expression
+-> It will be called immediately once the function object is created 
+Syntax:
+     (expression(function))()
+(function()//Anonymoues function
+{
+
+})()
+
+(()=>{//Arrow function
+
+})()
+
+(function demo(){//Named function
+
+})()
+When we will use the multiple iife function that will be terminated as a ";"
+
+ARRAY IN JAVASCRIPT:
+-> Array is used to store the data of an different data types 
+->So it is Heterogeneous
+
+Creation of Array:
+->By using the new keyword
+
+Objects in JavaScript:
+
+It is used to store the data in the form of key and value pairs
+It will use the declaration way
+
+let obj={
+name:"Sravya",
+
+}
+
+Asynchronous function- Making a way for other function to execute 
+2 inbuilt methods 
+setTimeout(call back function,delay-time)  //It will give the output only once
+setInterval(call back function,delay-time) // it will execute for every delay time
+This is present inside window object
+
+promise:
+*It is an object
+*it is used to look after asynchronous function
+*3 phase
+->pending phase(Either promise will be resolve or reject)
+->Resolve/fulfilled (When the asynchronous fun is successfully)
+   *The promise will accept one method(.then(cbf))
+->Reject (When the asynchronous fun is not successfully)
+   *The promise will accept one method(.catch(cbf))
+
+Syntax:
+  new Promise((resolve,reject)=>{
+async fun
+})
+.then(cbf)
+.catch(cbf)
+DOM(Document Object Model):
+
+screen,history,navigator,navigation,storage,fetch,DOM
+                                                   |
+                                                 Document
+                                                    |
+                                                 Html
+                                  *Head(title,meta)   *body(all tags)
+*Dom is a object
+*It is having a root element called document
+*it has the life-span until the page is reload
+*It is used to create,update,delete the element and we can provide styles using dom.
+                                                    
+2Types of Medhods:
+1)Direct Access Method
+2)Indirect Access Method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
