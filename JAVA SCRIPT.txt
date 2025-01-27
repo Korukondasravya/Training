@@ -150,8 +150,35 @@ screen,history,navigator,navigation,storage,fetch,DOM
 2Types of Medhods:
 1)Direct Access Method
 2)Indirect Access Method
+EVENTS in DOM:
+Types:
+->Keyboard events:
+*key-up
+*key-down
+*key=-press
+->Mouse-event:
+*onmouseover
+*onmouseleave
+*onclick
+->pointer-event:
+*clickevent
+*dblclick
+->pointer Event
 
 
+Manipulation/Modification of DOM: It is updating or modifying the DOM.
+
+Method: createElement()
+
+Steps:
+1)create element using createElement() method
+2)Append that element to the parent elements using append or appendChild method
+
+Eg:
+let a=document.createElement("h1")
+console.log(a)//<h1><h1>
+a.textContent="Hello"
+ document.body.appendChild(h1)
 
 
 
