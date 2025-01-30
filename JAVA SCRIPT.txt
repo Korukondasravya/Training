@@ -182,10 +182,26 @@ a.textContent="Hello"
 
 
 
+JSON: JavaScript Object Notation
 
 
+API:It will communicate between two applications
 
+It has 2 types
+*SOAP:Simple object acess protocol
+http,ajax(XHR)
+*REST:Representational state Transfer
+http,JSON
 
+JSON:
+It is a plain text file where data will be stored in the form of key-value pairs. and all keys will be enclosed with the double quotes.
+Steps:
+1.create a .json file
+2.store the data in form of key and value pairs and key should be enclosed with double quotes.other than undefined and function we can use any data-type to create a json
+
+Methods of JSON:
+1) Stringify():It will convert object into json data-type
+2)Parse():It will convert json data-type into object
 
 
 

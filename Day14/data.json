@@ -1,0 +1,20 @@
+[{
+    "Name":"Terishma",
+    "id":1,
+    "boolean":"true",
+    "array":[1,2,3],
+    "object":{
+        "designation":"Developer"
+    },
+    "null":null
+},
+{
+    "Name":"Sravya",
+    "id":2,
+    "boolean":"false",
+    "array":[10,20,30],
+    "object":{
+        "designation":"Developer"
+    },
+    "null":null
+}]
